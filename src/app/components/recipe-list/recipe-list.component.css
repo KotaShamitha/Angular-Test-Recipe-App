@@ -1,0 +1,38 @@
+.recipe-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+/* Cuisine-based colors */
+.cuisine-italian {
+  background-color: lightgreen;
+}
+
+.cuisine-mexican {
+  background-color: lightcoral;
+}
+
+.cuisine-indian {
+  background-color: yellow;
+}
+
+.cuisine-default {
+  background-color: lightgray;
+}
+
+/* Button styling */
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}

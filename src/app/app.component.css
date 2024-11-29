@@ -1,0 +1,12 @@
+/* App Component Styles */
+
+header {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}

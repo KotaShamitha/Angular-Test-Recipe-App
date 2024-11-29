@@ -1,0 +1,6 @@
+<div *ngFor="let recipe of recipes" [ngClass]="'cuisine-' + recipe.cuisine.toLowerCase()" class="recipe-card">
+    <h3>{{ recipe.name }} ({{ recipe.cuisine }})</h3>
+    <p>{{ recipe.description }}</p>
+    <a [routerLink]="['/recipes', recipe.id]">View Details</a>
+    <button [routerLink]="['/recipes/edit', recipe.id]" class="edit-button">Edit</button>
+</div>
